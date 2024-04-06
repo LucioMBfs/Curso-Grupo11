@@ -3,37 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primera Clase HTML</title>
+    <title>Centro de Idiomas</title>
 </head>
-<!-- contenido que vemos en el navegador -->
 <body>
     <header>
-        <h1> <!-- Encabezado de mi página --> Ejemplo Página web</h1> 
+        <div class="container">
+            <p class="logo"> CEI - <div>Centro de Estudio de Idiomas</div></p>
+            <nav>
+                <a href="#">Curso</a>
+                <a href="#">Aprendizaje</a>
+                <a href="#">Inscripción</a>
+                <a href="#">Contacto</a>
+            </nav>
+        </div>
     </header>
-    <main> 
-        <section>
-            <h2> Sección 1 de la página</h2>
-            <P> Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>Dolore beatae omnis</strong>, laudantium adipisci praesentium atque neque odio eius ad voluptatibus cum veritatis unde quam ducimus commodi, porro sed! Aliquid, expedita?</P>
-            </section>
-        <section>
-            <h3> Sección 2 de la página web</h3>
-            <p> texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto </p>
-            <div>
-                <!-- rutas absolutas, live server lo bloquea -->
-            <a href="C:\Users\Lucio-pc\Desktop\Curso\sitio\seccion_2.html"> Ampliar información</a>
+
+    <section id="hero">
+        <h1>Comienza a aprender un nuevo idioma! <br> Con nuestros cursos virtuales</h1>
+        <button>Inscríbete!</button>
+    </section>
+
+    <section class="grupo11">
+        <div class="imagen"></div>
+        <h2> CEI - Nuestra Trayectoria</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab enim quas quam distinctio accusantium expedita. Dolor ut, quaerat quidem asperiores itaque illo eum quos fugit ab minus dolorem molestiae hic.</p>
+    </section>
+
+    <section class="NuestrosCursos">
+        <h2>Nuestros Cursos Destacados!</h2>
+        <div class="container">
+
+            <div class="carta">
+                 <h3>Español</h3>
+                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia ea porro, modi, esse, praesentium illum sapiente officiis deserunt vitae vero veritatis officia adipisci sunt! Explicabo quos quibusdam sit magnam debitis?</p>
+                 <button>+ información</button>
+             </div>
+
+             <div class="carta">
+                  <h3>Inglés</h3>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia ea porro, modi, esse, praesentium illum sapiente officiis deserunt vitae vero veritatis officia adipisci sunt! Explicabo quos quibusdam sit magnam debitis?</p>
+                  <button>+ información</button>
+             </div>
+
+             <div class="carta">
+                <h3>Portugues</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia ea porro, modi, esse, praesentium illum sapiente officiis deserunt vitae vero veritatis officia adipisci sunt! Explicabo quos quibusdam sit magnam debitis?</p>
+                <button>+ información</button>
             </div>
-            <div>
-            <a href="http://127.0.0.1:5500/sitio/seccion_2.html"> Ampliar información</a>
+
+            <div class="carta">
+                <h3>Italiano</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia ea porro, modi, esse, praesentium illum sapiente officiis deserunt vitae vero veritatis officia adipisci sunt! Explicabo quos quibusdam sit magnam debitis?</p>
+                <button>+ información</button>
             </div>
-            <!-- ruta relativa -->
-            <a href="sitio\seccion_2.html">Ampliar información</a>
-        </section>
-        <section> 
-            <img src="imagenes\png-GitHub.png" alt="">
-        </section>
-    </main>
+        </div>
+    </section>
+
+    <section id="Características">
+        <div class="container"></div>
+            <ul>
+              <li>Cursos Online</li>
+              <li>En el momento del día que tu quieras</li>
+              <li>Varíos Metodos de Estudio</li>
+              <li>Varíos Metodos de Pago</li>  
+            </ul>
+    </div>
+    </section>
+
+    <section class="Inscríbete!">
+        <h2>Deseas Aprender Nuevos Idiomas</h2>
+        <button>Inscríbete</button>
+    </section>
     <footer>
-        <p> Copyright 2024 - Grupo 11</p>
-     </footer>
+        <div class="container">
+            <p>&copy;Grupo11-Curso de Programación FS</p>
+        </div>
+    </footer>
 </body>
 </html>
