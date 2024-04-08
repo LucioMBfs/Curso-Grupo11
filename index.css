@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{font-size: 3.5;}
+h2{font-size: 2.8;}
+h3{font-size: 2;}
+p{font-size: 1.30;}
+ul{list-style: none;}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
